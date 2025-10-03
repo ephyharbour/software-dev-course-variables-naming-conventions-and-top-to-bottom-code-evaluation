@@ -30,3 +30,23 @@ let price = 20;
 let recieptStatement = customerName + " bought " + items + " items for $" + price + ".";
 
 console.log(recieptStatement);
+
+
+//Implicit conversion//
+
+let userName = "Amy";
+let ageOne = 2;
+let ageTwo = "6";
+let totalAge = ageOne + ageTwo;
+console.log("This is an example of Implicit Conversion:")
+currentStats = console.log( `${userName} is  ${totalAge} years old.`);
+
+
+//Explicit conversion//
+
+let userName1 = null;
+/*let ageOne1 = 2;
+let ageTwo1 = "6";
+let totalAge1 = ageOne + Number(ageTwo);*/
+console.log("This is an example of Edge Conversion:")
+statusNow = console.log(`${userName} is the new  ${String(userName1)} as a string`);
